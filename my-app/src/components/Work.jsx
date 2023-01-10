@@ -23,7 +23,7 @@ const Work = () => {
                         <a href="/">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/joyceycodes/JamPackd">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
                         </a>
                     </div>
@@ -43,7 +43,7 @@ const Work = () => {
                         <a href="/">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/joyceycodes/DealerDesk">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
                         </a>
                     </div>
@@ -61,7 +61,7 @@ const Work = () => {
                         <a href="/">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/joyceycodes/attendit">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
                         </a>
                     </div>
