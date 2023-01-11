@@ -81,16 +81,19 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 '>
                         <a className='flex justify-between items-center w-full text-gray-300' 
-                        href="/">LinkedIn <FaLinkedin size={30}/></a>
+                        href="https://www.linkedin.com/in/joyceyu1996/">LinkedIn <FaLinkedin size={30}/></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a className='flex justify-between items-center w-full text-gray-300' 
-                        href="/">Github <FaGithub size={30}/></a>
+                        href="https://github.com/joyceycodes">Github <FaGithub size={30}/></a>
                     </li>
+                    <Link to="contact" smooth={true} duration={500}>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         <a className='flex justify-between items-center w-full text-gray-300' 
-                        href="/">Email <HiOutlineMail size={30}/></a>
-                    </li>
+                        href="/">
+                            
+                        Email <HiOutlineMail size={30}/></a>
+                    </li></Link>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] '>
                         <a className='flex justify-between items-center w-full text-gray-300' 
                         href="/">Resume <BsFillPersonLinesFill size={30}/></a>
