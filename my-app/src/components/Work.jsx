@@ -20,7 +20,7 @@ const Work = () => {
                         Jam Pack'd Music App
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
+                        <a href="https://semi-serious-solutions.gitlab.io/jam-packd/">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
                         </a>
                         <a href="https://github.com/joyceycodes/JamPackd">
