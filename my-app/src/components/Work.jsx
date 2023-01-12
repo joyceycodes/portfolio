@@ -40,9 +40,7 @@ const Work = () => {
                         Dealer Desk
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
-                        </a>
+
                         <a href="https://github.com/joyceycodes/DealerDesk">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
                         </a>
@@ -58,9 +56,7 @@ const Work = () => {
                     <span className='text-2xl font-bold text-white tracking-wider'>Attend It
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
-                        </a>
+
                         <a href="https://github.com/joyceycodes/attendit">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
                         </a>
