@@ -1,5 +1,8 @@
 import React from 'react'
 import JamPackd from '../assets/JamPackd.png'
+import car from '../assets/car.jpg'
+import conference from '../assets/conference.jpg'
+
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
@@ -16,10 +19,11 @@ const Work = () => {
 
                 {/* hover effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
-                        Jam Pack'd Music App
+                    <span className='text-2xl font-bold text-white tracking-wider flex justify-center'>
+                        Jam Pack'd
                     </span>
-                    <div className='pt-8 text-center'>
+                    <p className='px-4 text-center'>Music discovery application for music lovers, think 'Tinder' but for finding the perfect tune</p>
+                    <div className='text-center'>
                         <a href="https://semi-serious-solutions.gitlab.io/jam-packd/">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
                         </a>
@@ -32,14 +36,15 @@ const Work = () => {
         
        
             {/* card item */}
-            <div style={{backgroundImage: `url(${JamPackd})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${car})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                 {/* hover effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider text-center'>
+                    <span className='text-2xl font-bold text-white tracking-wider flex justify-center'>
                         Dealer Desk
                     </span>
-                    <div className='pt-8 text-center'>
+                    <p className='text-center px-4'>Application for automotive dealerships to track sales, inventory, and service appointments</p>
+                    <div className='text-center'>
 
                         <a href="https://github.com/joyceycodes/DealerDesk">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
@@ -49,13 +54,14 @@ const Work = () => {
             </div>
 
             {/* card item */}
-            <div style={{backgroundImage: `url(${JamPackd})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${conference})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                 {/* hover effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>Attend It
+                    <span className='text-center text-2xl font-bold text-white tracking-wider flex justify-center'>Attend It
                     </span>
-                    <div className='pt-8 text-center'>
+                    <p className='text-center px-4'>Create a conference and keep track of all the attendees</p>
+                    <div className='text-center'>
 
                         <a href="https://github.com/joyceycodes/attendit">
                         <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
