@@ -8,7 +8,7 @@ import Django from "../assets/Django.png"
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-[#f9f9f9] text-[#1e1e1e] w-full h-screen'>
+    <div name='skills' className='bg-[#f9f9f9] text-[#1e1e1e] w-full h-80%'>
     {/* container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
@@ -16,27 +16,27 @@ const Skills = () => {
             <p className='py-4'> These are the technologies I've worked with</p>
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='hover:scale-110 duration-500'>
                 <img className='mx-auto w-20' src={HTML} alt='HTML icon'/>
                 <p className='my-4'>HTML</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='hover:scale-110 duration-500'>
                 <img className='mx-auto w-20' src={CSS} alt='CSS icon'/>
                 <p className='my-4'>CSS</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='hover:scale-110 duration-500'>
                 <img className='mx-auto w-20' src={Javascript} alt='Javascript icon'/>
                 <p className='my-4'>Javascript</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='hover:scale-110 duration-500'>
                 <img className='mx-auto w-20' src={Python} alt='Python icon'/>
                 <p className='my-4'>Python</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='hover:scale-110 duration-500'>
                 <img className='mx-auto w-20' src={ReactIcon} alt='React icon'/>
                 <p className='my-4'>React</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <div className='hover:scale-110 duration-500'>
                 <img className='mx-auto w-20' src={Django} alt='Django icon'/>
                 <p className='my-4'>Django</p>
             </div>

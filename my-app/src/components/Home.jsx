@@ -8,7 +8,7 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#1e1e1e]'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#1e1e1e]'>Joyce Yu</h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#1e1e1e]'>I'm a Full Stack Software Engineer.</h2>
+        <h2 className='text-4xl sm:text-7xl font-bold text-[#6c6c6c]'>I'm a Full Stack Software Engineer.</h2>
         <p className='text-[#1e1e1e] py-4 max-w-700px'>San Francisco, CA</p>
         <div>
         <Link to="work" smooth={true} duration={500}> 
