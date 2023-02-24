@@ -13,9 +13,9 @@ const Work = () => {
         </div>
 
         {/* container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
             {/* card item */}
-            <div style={{backgroundImage: `url(${JamPackd})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${JamPackd})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                 {/* hover effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -36,7 +36,7 @@ const Work = () => {
         
        
             {/* card item */}
-            <div style={{backgroundImage: `url(${car})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${car})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                 {/* hover effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -54,7 +54,7 @@ const Work = () => {
             </div>
 
             {/* card item */}
-            <div style={{backgroundImage: `url(${conference})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${conference})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                 {/* hover effects */}
                 <div className='opacity-0 group-hover:opacity-100'>
