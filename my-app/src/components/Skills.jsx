@@ -1,10 +1,5 @@
 import React from 'react'
-import CSS from "../assets/CSS.png"
-import HTML from "../assets/HTML.png"
-import Javascript from "../assets/Javascript.png"
-import ReactIcon from "../assets/ReactIcon.png"
-import Python from "../assets/Python.png"
-import Django from "../assets/Django.png"
+import {SiDjango, SiJavascript, SiHtml5, SiCss3, SiPython, SiReact} from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -17,27 +12,27 @@ const Skills = () => {
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
             <div className='hover:scale-110 duration-500'>
-                <img className='mx-auto w-20' src={HTML} alt='HTML icon'/>
+                <SiHtml5 className='mx-auto w-20' size={70}/>
                 <p className='my-4'>HTML</p>
             </div>
             <div className='hover:scale-110 duration-500'>
-                <img className='mx-auto w-20' src={CSS} alt='CSS icon'/>
+              <SiCss3 className='mx-auto w-20' size={70}/>
                 <p className='my-4'>CSS</p>
             </div>
             <div className='hover:scale-110 duration-500'>
-                <img className='mx-auto w-20' src={Javascript} alt='Javascript icon'/>
+                <SiJavascript className='mx-auto w-20' size={70}/>
                 <p className='my-4'>Javascript</p>
             </div>
             <div className='hover:scale-110 duration-500'>
-                <img className='mx-auto w-20' src={Python} alt='Python icon'/>
+                <SiPython className='mx-auto w-20' size={70}/>
                 <p className='my-4'>Python</p>
             </div>
             <div className='hover:scale-110 duration-500'>
-                <img className='mx-auto w-20' src={ReactIcon} alt='React icon'/>
+                <SiReact className='mx-auto w-20' size={70}/>
                 <p className='my-4'>React</p>
             </div>
             <div className='hover:scale-110 duration-500'>
-                <img className='mx-auto w-20' src={Django} alt='Django icon'/>
+                <SiDjango className='mx-auto w-20' size={70}/>
                 <p className='my-4'>Django</p>
             </div>
         </div>
