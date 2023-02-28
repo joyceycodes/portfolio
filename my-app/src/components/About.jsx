@@ -19,10 +19,7 @@ const About = () => {
                     <p> I have always been driven by a desire to help people and make a positive impact in the world. This motivation led me to a career in sales, where I honed my skills in communication and problem-solving while consistently meeting and exceeding sales targets. However, as I progressed in my career, I realized that my true passion lies in the world of technology and software development.
                     <br></br>
                     <br></br>
-                    I made the decision to pursue a new path and enrolled in a software engineering bootcamp, where I gained a strong foundation in the fundamentals of JavaScript and Python. From there, I began working on a variety of software development projects, including building full stack web applications for music lovers and automotive dealerships, and converting a monolithic application into microservices.
-                    <br></br>
-                    <br></br>
-                    I am excited to bring my sales experience and technical skills to a career in software engineering, where I can continue to help people and make a positive impact through the innovative solutions I build.</p>
+                    I began working on a variety of software development projects, including building full stack web applications for music lovers and automotive dealerships, and converting a monolithic application into microservices. I am excited to bring my sales experience and technical skills to a career in software engineering, where I can continue to help people and make a positive impact through the innovative solutions I build.</p>
                 </div>
             </div>
         </div>
