@@ -3,7 +3,7 @@ import {SiDjango, SiJavascript, SiHtml5, SiCss3, SiPython, SiReact} from 'react-
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-[#f9f9f9] text-[#1e1e1e] w-full h-80%'>
+    <div name='skills' className='bg-[#f9f9f9] text-[#1e1e1e] w-full h-50%'>
     {/* container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>

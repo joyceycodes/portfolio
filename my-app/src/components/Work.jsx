@@ -2,6 +2,7 @@ import React from 'react'
 import JamPackd from '../assets/JamPackd.png'
 import car from '../assets/car.jpg'
 import conference from '../assets/conference.jpg'
+import { FaGithub } from 'react-icons/fa'
 
 const Work = () => {
   return (
@@ -22,13 +23,13 @@ const Work = () => {
                     <span className='text-2xl font-bold text-white tracking-wider flex justify-center'>
                         Jam Pack'd
                     </span>
-                    <p className='px-4 text-center'>Music discovery application for music lovers, think 'Tinder' but for finding the perfect tune</p>
-                    <div className='text-center'>
+                    <p className='px-4 text-center'>Full stack web application for music lovers to discover new tunes, Tinder-style, and create playlists</p>
+                    <div className='flex justify-center'>
                         <a href="https://joyceyu96.gitlab.io/jam-packd/">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Demo</button>
+                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Live</button>
                         </a>
                         <a href="https://github.com/joyceycodes/JamPackd">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
+                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'><FaGithub size={25}/></button>
                         </a>
                     </div>
                 </div>
@@ -43,11 +44,11 @@ const Work = () => {
                     <span className='text-2xl font-bold text-white tracking-wider flex justify-center'>
                         Dealer Desk
                     </span>
-                    <p className='text-center px-4'>Application for automotive dealerships to track sales, inventory, and service appointments</p>
+                    <p className='text-center px-4'>Full stack web application for an automotive dealership management of inventory, sales, and service records</p>
                     <div className='text-center'>
 
                         <a href="https://github.com/joyceycodes/DealerDesk">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
+                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'><FaGithub size={25}/></button>
                         </a>
                     </div>
                 </div>
@@ -60,11 +61,11 @@ const Work = () => {
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-center text-2xl font-bold text-white tracking-wider flex justify-center'>Attend It
                     </span>
-                    <p className='text-center px-4'>Create a conference and keep track of all the attendees</p>
+                    <p className='text-center px-4'>Full stack web application for managing conference logistics, including attendees and locations</p>
                     <div className='text-center'>
 
                         <a href="https://github.com/joyceycodes/attendit">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'>Code</button>
+                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'><FaGithub size={25}/></button>
                         </a>
                     </div>
                 </div>
