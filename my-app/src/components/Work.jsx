@@ -6,10 +6,10 @@ import { FaGithub } from 'react-icons/fa'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-[#1e1e1e] bg-[#f9f9f9]'>
+    <div name='work' className='gradient4 w-full md:h-screen text-white'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 text-[#1e1e1e] border-[#1e1e1e]'>Work</p>
+            <p className='text-4xl font-bold inline border-b-4 text-white border-white'>Work</p>
             <p className='py-6'>Here are some of my recent projects</p>
         </div>
 
