@@ -26,10 +26,10 @@ const Work = () => {
                     <p className='px-4 text-center'>Full stack web application for music lovers to discover new tunes, Tinder-style, and create playlists</p>
                     <div className='flex justify-center'>
                         <a href="https://joyceyu96.gitlab.io/jam-packd/">
-                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg '>Live</button>
+                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-500 font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'>Live</button>
                         </a>
                         <a href="https://github.com/joyceycodes/JamPackd">
-                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'><FaGithub size={25}/></button>
+                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-500 font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
                         </a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Work = () => {
                     <div className='text-center'>
 
                         <a href="https://github.com/joyceycodes/DealerDesk">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'><FaGithub size={25}/></button>
+                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-500 font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
                         </a>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Work = () => {
                     <div className='text-center'>
 
                         <a href="https://github.com/joyceycodes/attendit">
-                        <button className='rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-700 font-bold- text-lg'><FaGithub size={25}/></button>
+                        <button className='text-center px-4 py-3 m-2 bg-white text-gray-500 rounded-lg font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
                         </a>
                     </div>
                 </div>

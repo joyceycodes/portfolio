@@ -11,32 +11,32 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-gray-900 opacity-25'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-gray-500 bg-opacity-25'>
             {/* menu */}
 
-                <ul className='hidden md:flex '>
-                    <li> 
-                        <Link to="home" smooth={true} duration={500} className='text-opacity-25 hover:text-opacity-100'>
+                <ul className='hidden md:flex text-opacity-25'>
+                    <li className='text-opacity-25'> 
+                        <Link to="home" smooth={true} duration={500} className='hover:text-white' >
                             Home
                         </Link>
                     </li>
                     <li> 
-                        <Link to="about" smooth={true} duration={500}>
+                        <Link to="about" smooth={true} duration={500} className= 'hover:text-white'>
                             About
                         </Link>
                     </li>
                     <li> 
-                        <Link to="skills" smooth={true} duration={500}>
+                        <Link to="skills" smooth={true} duration={500} className= 'hover:text-white'>
                             Skills
                         </Link>
                     </li>
                     <li> 
-                        <Link to="work" smooth={true} duration={500}>
+                        <Link to="work" smooth={true} duration={500} className= 'hover:text-white'>
                             Work
                         </Link>
                     </li>
                     <li> 
-                        <Link to="contact" smooth={true} duration={500}>
+                        <Link to="contact" smooth={true} duration={500} className= 'hover:text-white'>
                             Contact
                         </Link>
                     </li>
@@ -77,26 +77,26 @@ const Navbar = () => {
             </ul>
 
             {/* social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 '>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9]  '>
-                        <a className='flex justify-between items-center w-full text-gray-900' 
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] bg-opacity-25'>
+                        <a className='flex justify-between items-center w-full text-gray-900 text-opacity-25 hover:text-opacity-80 hover:text-white' 
                         href="https://www.linkedin.com/in/joyceyu-sf/">LinkedIn <FaLinkedin size={30}/></a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] '>
-                        <a className='flex justify-between items-center w-full text-gray-900' 
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-opacity-25 hover:ml-[-10px] duration-300 bg-[#f9f9f9] '>
+                        <a className='flex justify-between items-center w-full text-gray-900 text-opacity-25 hover:text-opacity-80 hover:text-white' 
                         href="https://github.com/joyceycodes">Github <FaGithub size={30}/></a>
                     </li>
                     <Link to="contact" smooth={true} duration={500}>
-                        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9]'>
-                            <a className='flex justify-between items-center w-full text-gray-900' 
+                        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] bg-opacity-25'>
+                            <a className='flex justify-between items-center w-full text-gray-900 text-opacity-25 hover:text-opacity-80 hover:text-white' 
                             href="/">
                                 
                             Email <HiOutlineMail size={30}/></a>
                         </li>
                     </Link>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] '>
-                        <a className='flex justify-between items-center w-full text-gray-900' 
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] bg-opacity-25'>
+                        <a className='flex justify-between items-center w-full text-gray-900 text-opacity-25 hover:text-opacity-100 hover:text-white' 
                         href={resume2}>Resume <BsFillPersonLinesFill size={30}/></a>
                     </li>
                 </ul>
