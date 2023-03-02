@@ -11,32 +11,32 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-gray-500 bg-opacity-25'>
+        <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-white text-white bg-opacity-25'>
             {/* menu */}
 
                 <ul className='hidden md:flex text-opacity-25'>
                     <li className='text-opacity-25'> 
-                        <Link to="home" smooth={true} duration={500} className='hover:text-white' >
+                        <Link to="home" smooth={true} duration={500} className='hover:text-gray-500' >
                             Home
                         </Link>
                     </li>
                     <li> 
-                        <Link to="about" smooth={true} duration={500} className= 'hover:text-white'>
+                        <Link to="about" smooth={true} duration={500} className= 'hover:text-gray-500'>
                             About
                         </Link>
                     </li>
                     <li> 
-                        <Link to="skills" smooth={true} duration={500} className= 'hover:text-white'>
+                        <Link to="skills" smooth={true} duration={500} className= 'hover:text-gray-500'>
                             Skills
                         </Link>
                     </li>
                     <li> 
-                        <Link to="work" smooth={true} duration={500} className= 'hover:text-white'>
+                        <Link to="work" smooth={true} duration={500} className= 'hover:text-gray-500'>
                             Work
                         </Link>
                     </li>
                     <li> 
-                        <Link to="contact" smooth={true} duration={500} className= 'hover:text-white'>
+                        <Link to="contact" smooth={true} duration={500} className= 'hover:text-gray-500'>
                             Contact
                         </Link>
                     </li>
