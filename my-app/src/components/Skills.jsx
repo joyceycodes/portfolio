@@ -1,5 +1,5 @@
 import React from 'react'
-import {SiDjango, SiJavascript, SiHtml5, SiCss3, SiPython, SiReact} from 'react-icons/si'
+import {SiDjango, SiJavascript, SiHtml5, SiCss3, SiPython, SiReact, SiFastapi,SiDocker, SiMongodb} from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -12,16 +12,17 @@ const Skills = () => {
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 '>
             <div className='hover:scale-110 duration-500 hover:font-bold'>
+                <SiJavascript className='mx-auto w-20' size={70}/>
+                <p className='my-4'>Javascript</p>
+            </div>    
+          
+            <div className='hover:scale-110 duration-500 hover:font-bold'>
                 <SiHtml5 className='mx-auto w-20' size={70}/>
                 <p className='my-4'>HTML</p>
             </div>
             <div className='hover:scale-110 duration-500 hover:font-bold'>
               <SiCss3 className='mx-auto w-20' size={70}/>
                 <p className='my-4'>CSS</p>
-            </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold'>
-                <SiJavascript className='mx-auto w-20' size={70}/>
-                <p className='my-4'>Javascript</p>
             </div>
             <div className='hover:scale-110 duration-500 hover:font-bold'>
                 <SiPython className='mx-auto w-20' size={70}/>
@@ -34,6 +35,18 @@ const Skills = () => {
             <div className='hover:scale-110 duration-500 hover:font-bold'>
                 <SiDjango className='mx-auto w-20' size={70}/>
                 <p className='my-4'>Django</p>
+            </div>
+            <div className='hover:scale-110 duration-500 hover:font-bold'>
+                <SiFastapi className='mx-auto w-20' size={70}/>
+                <p className='my-4'>FastApi</p>
+            </div>
+            <div className='hover:scale-110 duration-500 hover:font-bold'>
+                <SiMongodb className='mx-auto w-20' size={70}/>
+                <p className='my-4'>MongoDb</p>
+            </div>
+            <div className='hover:scale-110 duration-500 hover:font-bold'>
+                <SiDocker className='mx-auto w-20' size={70}/>
+                <p className='my-4'>Docker</p>
             </div>
         </div>
       </div>
