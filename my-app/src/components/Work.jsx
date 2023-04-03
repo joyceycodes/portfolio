@@ -3,6 +3,8 @@ import JamPackd from '../assets/JamPackd.png'
 import car from '../assets/car.jpg'
 import crowns from '../assets/crowns.png'
 import conference from '../assets/conference.jpg'
+import todo from '../assets/todo.jpg'
+import recipe from '../assets/recipe.jpg'
 import { FaGithub } from 'react-icons/fa'
 
 const Work = () => {
@@ -83,6 +85,40 @@ const Work = () => {
                     <p className='text-center px-4'>A multi page static website built using HTML, CSS, and WordPress for a non-profit organization in collaboration with 48in48</p>
                     <div className='text-center'>
 
+                    </div>
+                </div>
+            </div>
+
+            {/* card item */}
+            <div style={{backgroundImage: `url(${recipe})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                {/* hover effects */}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-center text-2xl font-bold text-white tracking-wider flex justify-center'>Scrumptious Recipes
+                    </span>
+                    <p className='text-center px-4'>Full stack web application to keep track of all your favorite recipes</p>
+                    <div className='text-center'>
+
+                        <a href="https://gitlab.com/joyceyu96/scrumptious-recipes-hardening">
+                        <button className='text-center px-4 py-3 m-2 bg-white text-gray-500 rounded-lg font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            {/* card item */}
+            <div style={{backgroundImage: `url(${todo})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                {/* hover effects */}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-center text-2xl font-bold text-white tracking-wider flex justify-center'>Project Tracker
+                    </span>
+                    <p className='text-center px-4'>Full stack web application that allows users to keep track of current projects and tasks</p>
+                    <div className='text-center'>
+
+                        <a href="https://gitlab.com/joyceyu96/project-tracker">
+                        <button className='text-center px-4 py-3 m-2 bg-white text-gray-500 rounded-lg font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
+                        </a>
                     </div>
                 </div>
             </div>
