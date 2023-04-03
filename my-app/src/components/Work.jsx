@@ -1,6 +1,7 @@
 import React from 'react'
 import JamPackd from '../assets/JamPackd.png'
 import car from '../assets/car.jpg'
+import crowns from '../assets/crowns.png'
 import conference from '../assets/conference.jpg'
 import { FaGithub } from 'react-icons/fa'
 
@@ -67,6 +68,21 @@ const Work = () => {
                         <a href="https://github.com/joyceycodes/attendit">
                         <button className='text-center px-4 py-3 m-2 bg-white text-gray-500 rounded-lg font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
                         </a>
+                    </div>
+                </div>
+            </div>
+
+            {/* card item */}
+            <div style={{backgroundImage: `url(${crowns})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                {/* hover effects */}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider flex justify-center'>
+                        CROWNS
+                    </span>
+                    <p className='text-center px-4'>A multi page static website built using HTML, CSS, and WordPress for a non-profit organization in collaboration with 48in48</p>
+                    <div className='text-center'>
+
                     </div>
                 </div>
             </div>
