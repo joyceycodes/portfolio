@@ -94,7 +94,7 @@ const Work = () => {
                     <span className='text-m font-bold text-white tracking-wider flex justify-center'>
                     HTML, CSS, WordPress
                     </span>
-                    <p className='text-center px-4'>A multi page static website built using HTML, CSS, and WordPress for a non-profit organization in collaboration with 48in48</p>
+                    <p className='text-center px-4'>A multi page static website for a non-profit that supports continued development of families impacted by incarceration </p>
                     <div className='text-center'>
                     <div className='flex justify-center'>
                         <a href="https://crownshtx.org/" target="_blank" rel="noreferrer">
