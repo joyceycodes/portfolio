@@ -96,7 +96,11 @@ const Work = () => {
                     </span>
                     <p className='text-center px-4'>A multi page static website built using HTML, CSS, and WordPress for a non-profit organization in collaboration with 48in48</p>
                     <div className='text-center'>
-
+                    <div className='flex justify-center'>
+                        <a href="https://crownshtx.org/" target="_blank" rel="noreferrer">
+                        <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-white text-gray-500 font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'>Live</button>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>
