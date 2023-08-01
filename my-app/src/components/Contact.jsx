@@ -6,7 +6,7 @@ const Contact = () => {
         <form method="POST" action="https://getform.io/f/0090e051-4819-424e-b7ca-e456ff5b9538" className='text-white flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-white text-white'>Contact</p>
-                <p className='text-white p-4'>Submit the form below or send me an email at joyceyu96@gmail.com</p>
+                <p className='text-white p-4 font-bold'>Submit the form below or send me an email at joyceyu96@gmail.com</p>
             </div>
             <input className='bg-[#e0e0e1] p-2 placeholder-white text-gray-500' aria-label='name' type="text" placeholder='Name' name='name'/>
             <input className='my-4 p-2 bg-[#e0e0e1] placeholder-white text-gray-500' aria-label='email' type="email" placeholder='Email' name='email'/>
