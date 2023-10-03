@@ -24,33 +24,9 @@
 }
 
 .content-div:hover {
-  background-image:linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
-  )!important;
+  background:#fffffe
+  !important;
 }
-
-.gradient1 {
-  background: rgb(238,174,202);
-  background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-}
-
-.gradient2 {
-  background: rgb(238,174,202);
-  background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(193,148,233,1) 100%);
-}
-
-.gradient3 {
-  background: rgb(193,148,233);
-  background: linear-gradient(180deg, rgba(193,148,233,1) 0%, rgba(148,187,233,1) 100%);
-}
-
-.gradient4 {
-  background: rgb(151,233,148);
-  background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
-}
-
 
 .content {
   position: relative;
