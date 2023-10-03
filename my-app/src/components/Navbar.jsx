@@ -80,23 +80,22 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] bg-opacity-25'>
-                        <a className='flex justify-between items-center w-full text-white text-opacity-80 hover:font-bold' 
+                        <a className='flex justify-between items-center w-full text-white hover:font-bold hover:text-opacity-100 ' 
                         href="https://www.linkedin.com/in/joyceyu-sf/">LinkedIn <FaLinkedin size={30}/></a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-opacity-25 hover:ml-[-10px] duration-300 bg-[#f9f9f9] '>
-                        <a className='flex justify-between items-center w-full text-white text-opacity-80 hover:font-bold' 
+                        <a className='flex justify-between items-center w-full text-white hover:font-bold' 
                         href="https://github.com/joyceycodes">Github <FaGithub size={30}/></a>
                     </li>
                     <Link to="contact" smooth={true} duration={500}>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] bg-opacity-25'>
-                            <a className='flex justify-between items-center w-full text-white text-opacity-80 hover:font-bold' 
+                            <a className='flex justify-between items-center w-full text-white hover:font-bold' 
                             href="/">
-                                
                             Email <HiOutlineMail size={30}/></a>
                         </li>
                     </Link>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f9f9f9] bg-opacity-25'>
-                        <a className='flex justify-between items-center w-full text-white text-opacity-80 hover:font-bold' 
+                        <a className='flex justify-between items-center w-full text-white hover:font-bold' 
                         href={Joyce_Yu_Resume} target="_blank" rel="noreferrer">Resume <BsFillPersonLinesFill size={30}/></a>
                     </li>
                 </ul>
