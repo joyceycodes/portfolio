@@ -11,9 +11,8 @@ const Work = () => {
   return (
     <div name='work' className='bg-[#232946] w-full py-24 text-[#fffffe]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 text-white border-white'>Work</p>
-            <p className='py-6 font-bold text-[#b8c1ec]'>Here are some of my recent projects!</p>
+        <div className='pb-8 text-center'>
+            <p className='text-4xl font-bold inline border-b-4 text-white border-white'>Projects</p>
         </div>
 
         {/* container */}
