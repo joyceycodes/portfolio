@@ -3,8 +3,6 @@ import JamPackd from '../assets/JamPackd.png'
 import car from '../assets/car.jpg'
 import crowns from '../assets/crowns.png'
 import conference from '../assets/conference.jpg'
-import todo from '../assets/todo.jpg'
-import recipe from '../assets/recipe.jpg'
 import { FaGithub } from 'react-icons/fa'
 
 const Work = () => {
@@ -17,6 +15,27 @@ const Work = () => {
 
         {/* container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
+            {/* card item */}
+                <div style={{backgroundImage: `url("https://res.cloudinary.com/dclcbz6dx/image/upload/v1694989760/firefox_S9d0a28xp2_gqxx4i.gif")`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                {/* hover effects */}
+                <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-center text-2xl font-bold text-[#232946] tracking-wider flex justify-center'>IceBreaker
+                    </span>
+                    <span className='text-m text-center font-bold text-[#d4939d] tracking-wider flex justify-center'>
+                    Next.js, TypeScript, WebSockets, PostgreSQL
+                    </span>
+                    <p className='text-center px-4 text-[#232946]'>Full stack web application that fosters social connectedness through thought provoking questions</p>
+                    <div className='flex justify-center'>
+                         <a href="https://v45-tier3-team-51-1sko.vercel.app/" target="_blank" rel="noreferrer">
+                            <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-[#232946] text-[#b8c1ec] font-bold text-md bg-opacity-70 hover:bg-opacity-100'>Live</button>
+                        </a>
+                        <a href="https://github.com/chingu-voyages/v45-tier3-team-51" target="_blank" rel="noreferrer">
+                            <button className='text-center px-4 py-3 m-2 bg-[#232946] text-[#b8c1ec] rounded-lg font-bold text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
+                        </a>
+                    </div>
+                </div>
+                </div>
             {/* card item */}
             <div style={{backgroundImage: `url(${JamPackd})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
@@ -50,7 +69,7 @@ const Work = () => {
                         Dealer Desk
                     </span>
                     <span className='text-m font-bold text-[#d4939d] tracking-wider flex justify-center'>
-                    Django, React, Postgres
+                    Django, React, PostgreSQL
                     </span>
                     <p className='text-center px-4 text-[#232946]'>Full stack web application for an automotive dealership management of inventory, sales, and service records</p>
                     <div className='text-center'>
@@ -70,7 +89,7 @@ const Work = () => {
                     <span className='text-center text-2xl font-bold text-[#232946] tracking-wider flex justify-center'>Attend It
                     </span>
                     <span className='text-m font-bold text-[#d4939d] tracking-wider flex justify-center'>
-                    Django, React, Postgres, RabbitMQ
+                    Django, React, PostgreSQL, RabbitMQ
                     </span>
                     <p className='text-center px-4 text-[#232946]'>Full stack web application for managing conference logistics, including attendees and locations</p>
                     <div className='text-center'>
@@ -104,48 +123,10 @@ const Work = () => {
                 </div>
             </div>
 
-            {/* card item */}
-            <div style={{backgroundImage: `url(${recipe})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                {/* hover effects */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-center text-2xl font-bold text-[#232946] tracking-wider flex justify-center'>Scrumptious Recipes
-                    </span>
-                    <span className='text-m font-bold text-[#d4939d] tracking-wider flex justify-center'>
-                    Django, React, MySQL
-                    </span>
-                    <p className='text-center px-4 text-[#232946]'>Full stack web application to keep track of all your favorite recipes</p>
-                    <div className='text-center'>
-
-                        <a href="https://gitlab.com/joyceyu96/scrumptious-recipes-hardening" target="_blank" rel="noreferrer">
-                        <button className='text-center px-4 py-3 m-2 bg-[#232946] text-[#b8c1ec] rounded-lg font-bold text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            {/* card item */}
-            <div style={{backgroundImage: `url(${todo})`}} className='shadow-lg shadow-[#686d747c] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                {/* hover effects */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-center text-2xl font-bold text-[#232946] tracking-wider flex justify-center'>Project Tracker
-                    </span>
-                    <span className='text-m font-bold text-[#d4939d] tracking-wider flex justify-center'>
-                    Django, React, SQLite
-                    </span>
-                    <p className='text-center px-4 text-[#232946]'>Full stack web application that allows users to keep track of current projects and tasks</p>
-                    <div className='text-center'>
-
-                        <a href="https://gitlab.com/joyceyu96/project-tracker" target="_blank" rel="noreferrer">
-                        <button className='text-center px-4 py-3 m-2 bg-[#232946] text-[#b8c1ec] rounded-lg font-bold- text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
-                        </a>
-                    </div>
-                </div>
             </div>
      </div>
     </div>
-   </div>
+
   )
 }
 
