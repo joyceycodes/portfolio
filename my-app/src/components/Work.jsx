@@ -88,7 +88,7 @@ const Work = () => {
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-center text-2xl font-bold text-[#232946] tracking-wider flex justify-center'>Attend It
                     </span>
-                    <span className='text-m font-bold text-[#d4939d] tracking-wider flex justify-center'>
+                    <span className='stext-m text-center font-bold text-[#d4939d] tracking-wider flex justify-center'>
                     Django, React, PostgreSQL, RabbitMQ
                     </span>
                     <p className='text-center px-4 text-[#232946]'>Full stack web application for managing conference logistics, including attendees and locations</p>
