@@ -41,48 +41,48 @@ const Skills = () => {
             infinite={true} 
             autoPlay={true}
             autoPlaySpeed={2000}>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiJavascript className='mx-auto w-20' size={70}/>
                 <p className='my-4 '>JavaScript</p>
             </div>    
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <TbBrandNextjs className='mx-auto w-20' size={70}/>
                 <p className='my-4 '>Next.js</p>
             </div>    
 
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiPython className='mx-auto w-20' size={70}/>
                 <p className='my-4 '>Python</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiReact className='mx-auto w-20' size={70}/>
                 <p className='my-4 '>React</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiMongodb className='mx-auto w-20' size={70}/>
                 <p className='my-4'>MongoDB</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <BiLogoPostgresql className='mx-auto w-20' size={70}/>
                 <p className='my-4'>PostgreSQL</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiDjango className='mx-auto w-20' size={70}/>
                 <p className='my-4'>Django</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiFastapi className='mx-auto w-20' size={70}/>
-                <p className='my-4'>FastApi</p>
+                <p className='my-4'>FastAPI</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiDocker className='mx-auto w-20' size={70}/>
                 <p className='my-4'>Docker</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
                 <SiHtml5 className='mx-auto w-20' size={70}/>
                 <p className='my-4 '>HTML</p>
             </div>
-            <div className='hover:scale-110 duration-500 hover:font-bold group hover:text-[#fffffe]'>
+            <div className='hover:scale-110 duration-500 hover:font-bold group'>
               <SiCss3 className='mx-auto w-20' size={70}/>
                 <p className='my-4 '>CSS</p>
             </div>

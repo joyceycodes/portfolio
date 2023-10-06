@@ -11,7 +11,7 @@ const Contact = () => {
             <input className='bg-[#fffffe] p-2 placeholder-[#232946] text-[#232946]' aria-label='name' type="text" placeholder='Name' name='name'/>
             <input className='my-4 p-2 bg-[#fffffe] placeholder-[#232946] text-[#232946]' aria-label='email' type="email" placeholder='Email' name='email'/>
             <textarea className='bg-[#fffffe] p-2 placeholder-[#232946] text-[#232946]' aria-label='message' name="message" cols="30" rows="10" placeholder='Message'></textarea>
-            <button className='bg-[#232946] text-[#fffffe] px-3 py-4 my-8 mx-auto flex items-center'>Let's collaborate ◡̈ </button>
+            <button className='bg-[#232946] text-[#fffffe] px-3 py-4 my-8 mx-auto flex items-center hover:font-bold'>Let's collaborate ◡̈ </button>
         </form>
     </div>
   )
