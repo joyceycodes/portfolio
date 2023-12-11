@@ -30,7 +30,7 @@ const Work = () => {
                          <a href="https://icebreaker-six.vercel.app/" target="_blank" rel="noreferrer">
                             <button className='align-middle rounded-lg text-center px-4 py-3 m-2 bg-[#232946] text-[#b8c1ec] font-bold text-md bg-opacity-70 hover:bg-opacity-100'>Live</button>
                         </a>
-                        <a href="https://github.com/chingu-voyages/v45-tier3-team-51" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/joyceycodes/icebreaker" target="_blank" rel="noreferrer">
                             <button className='text-center px-4 py-3 m-2 bg-[#232946] text-[#b8c1ec] rounded-lg font-bold text-lg bg-opacity-50 hover:bg-opacity-100'><FaGithub size={25}/></button>
                         </a>
                     </div>
