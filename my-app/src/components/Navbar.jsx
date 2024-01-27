@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
-import Joyce_Yu_Resume from '../assets/Joyce_Yu_Resume.pdf'
+import JoyceYuResume from '../assets/JoyceYuResume.pdf'
 
 const Navbar = () => {
 
@@ -96,7 +96,7 @@ const Navbar = () => {
                     </Link>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#232946] bg-opacity-25'>
                         <a className='flex justify-between items-center w-full text-white hover:font-bold' 
-                        href={Joyce_Yu_Resume} target="_blank" rel="noreferrer">Resume <BsFillPersonLinesFill size={30}/></a>
+                        href={JoyceYuResume} target="_blank" rel="noreferrer">Resume <BsFillPersonLinesFill size={30}/></a>
                     </li>
                 </ul>
             </div>    
